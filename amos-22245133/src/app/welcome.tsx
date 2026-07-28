@@ -6,7 +6,7 @@ export default function Welcome() {
     <View style={styles.container}>
       <Text style={styles.title}>Campus Connect</Text>
       <Text style={styles.subtitle}>Your UG Student Companion</Text>
-      <TouchableOpacity style={styles.button} onPress={() => router.push('/main')}>
+      <TouchableOpacity style={styles.button} onPress={() => router.push('/(tabs)/home')}>
         <Text style={styles.buttonText}>Get Started</Text>
       </TouchableOpacity>
     </View>
